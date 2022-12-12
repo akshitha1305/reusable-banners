@@ -13,8 +13,16 @@ body {
 
 /* Write your code here. */
 .bg-container {
-  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
-.list-container {
+.list-container1 {
   list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  padding-left: 0px;
 }

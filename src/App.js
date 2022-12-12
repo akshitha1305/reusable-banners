@@ -25,7 +25,7 @@ const bannerCardsList = [
 
 const App = () => (
   <div className="bg-container">
-    <ul className="list-container">
+    <ul className="list-container1">
       {bannerCardsList.map(eachCard => (
         <BannerCardItem bannerCardsList={eachCard} key={eachCard.id} />
       ))}

@@ -2,12 +2,11 @@
 import './index.css'
 
 const BannerCardItem = prop => {
-  const {cardItems, key} = prop
-  console.log(key)
-  const {headerText, description, className} = cardItems
+  const {bannerCardsList} = prop
+  const {headerText, description, className} = bannerCardsList
   return (
-    <li className="list-container">
-      <div className={className}>
+    <li className={`${className} list-container`}>
+      <div>
         <h1 className="heading">{headerText}</h1>
         <p className="description">{description}</p>
         <button type="button" className="show-button">
